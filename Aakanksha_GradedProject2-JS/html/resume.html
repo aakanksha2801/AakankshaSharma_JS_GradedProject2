@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resumes</title>
+    <link rel="stylesheet" href="../css/resume.css" />
+    <link rel="stylesheet" href="../css/resumeTemplate.css" />
+  </head>
+  <body>
+    <div class="resume-container">
+      <nav>
+        <input
+          type="text"
+          id="job-search"
+          placeholder="Search by keywords realted to job to filter the results"
+          oninput="search(event)"
+        />
+        <button id="prevBtn" onclick="prevResume()">Back</button>
+        <button id="nextBtn" onclick="nextResume()">Next</button>
+      </nav>
+      <div id="applicant-list"></div>
+    </div>
+    <script src="../js/resume.js"></script>
+  </body>
+</html>

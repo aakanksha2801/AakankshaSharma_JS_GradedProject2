@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+nav {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+nav input {
+  font-size: 0.7rem;
+}
+
+nav button {
+  margin-left: 10px;
+  width: 5rem;
+  display: none;
+}
+
+#job-search {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#applicant-list {
+  margin: 0 10rem;
+  margin-top: 20px;
+}
+
+#applicant-list .noResume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(138, 228, 223);
+  font-size: 1.5rem;
+  margin-top: 20px;
+  min-height: 60vh;
+}
+
+.applicant-details {
+  padding: 15px 15px 5px 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
